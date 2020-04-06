@@ -9,4 +9,8 @@
 .float-right{
   float: right;
 }
+
+.flex {
+  display: flex;
+}
     

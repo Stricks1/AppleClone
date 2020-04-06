@@ -1,28 +1,100 @@
-/* Footer Style */
+/* Header Style */
 
-footer {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  width: 980px;
-  font-size: 11px;
-  color: #6e6e6e;
+.main-header{
+  width: 100%;
+  height: 70vh;
+  max-height: 1180px;
+  background-image: url(../Images/montainBg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% 200%;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+.images-wrapper {
+  width: 100%;
   margin: auto;
 }
 
+.no-repeat-center {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 200px;
+  max-width: 364px;;
+  background-size: 100% 100%;
+}
+
+.first-image {
+  background-image: url(../Images/firstImage.jpg);
+}
+
+.second-image {
+  background-image: url(../Images/secondImage.jpg);
+}
+
+.third-image {
+  background-image: url(../Images/thirdImage.jpg);
+}
+
+.forth-image {
+  background-image: url(../Images/forthImage.jpg);
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 2px;
+  column-gap: 2px;
+}
+
+header ul,
 footer ul {
   padding: 0;
-  list-style: none;
   font-size: 0;
   display: inline-block;
 }
 
-footer ul>li {
+header ul>li {
+  font-size: 15px;
+  color: white;
+  display: inline-block;
+  background-color: grey;
+}
+
+.nav-menu {
+  padding-top: 83px;
+  justify-content: center;
+}
+
+.list-menu{
+  width: 845px;
+  height: 36px;
+  justify-content: space-between;
+}
+
+.list-menu > li {
+    flex: 1;
+}
+
+/* Footer Style */
+
+footer {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  width: 100%;
   font-size: 10px;
+  color: #6e6e6e;
+  margin: 30px auto;
+}
+
+footer ul>li {
+  font-size: 10.5px;
   height: 12px;
   display: inline-block;
   margin-left: 0.6em;
   padding-left: 0.6em;
   border-left: solid 1px #ccc;
- 
 }
 
 footer a {

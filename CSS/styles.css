@@ -1,0 +1,53 @@
+/* Footer Style */
+
+footer {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  width: 980px;
+  font-size: 11px;
+  color: #6e6e6e;
+  margin: auto;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  display: inline-block;
+}
+
+footer ul>li {
+  font-size: 10px;
+  height: 12px;
+  display: inline-block;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: solid 1px #ccc;
+ 
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+}
+
+footer .first {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.flag-icon {
+  height: 13px;
+}
+
+.flag-link {
+  top: -1px;
+}
+
+.last-footer-line {
+  padding-top: 15px;
+}

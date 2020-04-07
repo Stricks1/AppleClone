@@ -2,8 +2,9 @@
 
 .main-header{
   max-width: 1440px;
-  min-height: 538px;
   max-height: 1180px;
+  width: 100%;
+  height: 63vh;
   background-image: url(../Images/montainBg.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -60,6 +61,8 @@ header ul  li {
   background-color: grey;
 }
 
+/* Navbar Style */
+
 .nav-menu {
   padding-top: 83px;
   justify-content: center;
@@ -72,7 +75,73 @@ header ul  li {
 }
 
 .list-menu > li {
-    flex: 1;
+  flex: 1;
+  border-left: 1px solid #636058;
+  border-top: 1px solid #636058;
+  border-bottom: 1px solid #636058;
+  justify-content: center;
+  background-image: linear-gradient(#777 50%, #666 50%);
+}
+
+.list-menu > li:hover {
+  background-image: radial-gradient(#585858, #666, #777);  
+}
+
+.list-menu > li:last-of-type {
+  border-right: 1px solid #636058;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.list-menu > li:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.list-menu > li > span {
+  align-self: center;
+}
+
+.search-bar {
+  padding: 0 10px;
+}
+
+.search-bar input {
+  border-radius: 10px;
+  font-size: 11px;
+  background-color: #999;
+  padding-left: 20px;
+  background: url(/Images/mglass.png) no-repeat;
+  background-size: 13px;
+  background-position: 5px 3px;
+  height: 21px;
+}
+
+/* Tittle images on Header */
+
+.tittle1 {
+  margin-top: 30px;
+  background: url(../Images/tittleVerse.png) no-repeat;
+  background-position: top center;
+  height: 100px;
+}
+
+.tittle2 {
+  background: url(../Images/tittle2.png) no-repeat;
+  background-position: top center;
+  height: 100px;
+}
+
+.tittle3 {
+  background: url(../Images/tittle3.png) no-repeat;
+  background-position: top center;
+  height: 30px;
+}
+
+.tittle3:hover {
+  background: url(../Images/tittle3.png) no-repeat;
+  background-position: bottom center;
+  height: 32px;
 }
 
 /* Footer Style */
@@ -116,8 +185,6 @@ footer a:hover {
 .flag-link {
   height: 16px;
   width: 16px;
-  position: relative;
-  top: -2px;
 }
 
 .last-footer-line {

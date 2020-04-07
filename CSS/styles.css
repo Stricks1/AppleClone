@@ -86,7 +86,7 @@ footer a {
   color: #08c;
 }
 
-.list-menu a {
+.list-menu li {
   text-decoration: none;
   flex: 1;
   border-left: 1px solid #636058;
@@ -96,31 +96,33 @@ footer a {
   background-image: linear-gradient(#777 50%, #666 50%);
 }
 
-.list-menu a li {
-  background-image: linear-gradient(#777 50%, #666 50%);
+.list-menu li a {
+  color: white;
+  text-decoration: none;
 }
 
 footer a:hover {
   text-decoration: underline;
 }
 
-.list-menu a:hover,
-.list-menu a:hover li {
+.list-menu li:hover {
   background-image: linear-gradient(#666 50%, #777 50%);
 }
 
-.list-menu a:last-of-type {
+.list-menu li:last-of-type {
   border-right: 1px solid #636058;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
-.list-menu a:first-of-type {
+.list-menu li:first-of-type {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
 
-.list-menu a span {
+.list-menu li a,
+.list-menu li span {
+  width: 100%;
   align-self: center;
 }
 

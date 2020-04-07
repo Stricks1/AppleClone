@@ -1,6 +1,6 @@
 /* Header Style */
 
-.main-header{
+.main-header {
   max-width: 1440px;
   max-height: 1180px;
   width: 100%;
@@ -54,7 +54,7 @@ footer ul {
   display: inline-block;
 }
 
-header ul  li {
+header ul li {
   font-size: 15px;
   color: white;
   display: inline-block;
@@ -68,10 +68,18 @@ header ul  li {
   justify-content: center;
 }
 
-.list-menu{
+.list-menu {
   width: 980px;
   height: 36px;
   justify-content: space-between;
+}
+
+footer ul > li {
+  font-size: 10.5px;
+  display: inline-block;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: solid 1px #ccc;
 }
 
 .list-menu > li {
@@ -84,7 +92,7 @@ header ul  li {
 }
 
 .list-menu > li:hover {
-  background-image: radial-gradient(#585858, #666, #777);  
+  background-image: radial-gradient(#585858, #666, #777);
 }
 
 .list-menu > li:last-of-type {
@@ -109,7 +117,6 @@ header ul  li {
 .search-bar input {
   border-radius: 10px;
   font-size: 11px;
-  background-color: #999;
   padding-left: 20px;
   background: url(/Images/mglass.png) no-repeat;
   background-size: 13px;
@@ -153,14 +160,6 @@ footer {
   color: #6e6e6e;
   margin: 30px auto;
   line-height: 16px;
-}
-
-footer ul > li {
-  font-size: 10.5px;
-  display: inline-block;
-  margin-left: 0.6em;
-  padding-left: 0.6em;
-  border-left: solid 1px #ccc;
 }
 
 footer a {

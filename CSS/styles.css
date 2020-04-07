@@ -10,7 +10,6 @@
   background-position: bottom center;
   text-align: center;
   margin: auto;
-  cursor: pointer;
 }
 
 .images-wrapper {
@@ -74,7 +73,7 @@ header ul li {
   justify-content: space-between;
 }
 
-footer ul > li {
+footer ul li {
   font-size: 10.5px;
   display: inline-block;
   margin-left: 0.6em;
@@ -82,7 +81,13 @@ footer ul > li {
   border-left: solid 1px #ccc;
 }
 
-.list-menu > li {
+footer a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.list-menu a {
+  text-decoration: none;
   flex: 1;
   border-left: 1px solid #636058;
   border-top: 1px solid #636058;
@@ -91,22 +96,31 @@ footer ul > li {
   background-image: linear-gradient(#777 50%, #666 50%);
 }
 
-.list-menu > li:hover {
-  background-image: radial-gradient(#585858, #666, #777);
+.list-menu a li {
+  background-image: linear-gradient(#777 50%, #666 50%);
 }
 
-.list-menu > li:last-of-type {
+footer a:hover {
+  text-decoration: underline;
+}
+
+.list-menu a:hover,
+.list-menu a:hover li {
+  background-image: linear-gradient(#666 50%, #777 50%);
+}
+
+.list-menu a:last-of-type {
   border-right: 1px solid #636058;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
-.list-menu > li:first-of-type {
+.list-menu a:first-of-type {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
 
-.list-menu > li > span {
+.list-menu a span {
   align-self: center;
 }
 
@@ -154,7 +168,6 @@ footer ul > li {
 /* Footer Style */
 
 footer {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   width: 940px;
   font-size: 10px;
   color: #6e6e6e;
@@ -162,19 +175,10 @@ footer {
   line-height: 16px;
 }
 
-footer a {
-  text-decoration: none;
-  color: #08c;
-}
-
 footer .first {
   margin-left: 0;
   padding-left: 0;
   border-left: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 .flag-icon {

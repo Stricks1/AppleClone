@@ -1,0 +1,197 @@
+/* Header Style */
+
+.main-header {
+  max-width: 1440px;
+  max-height: 1180px;
+  width: 100%;
+  height: 63vh;
+  background-image: url(../Images/montainBg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  text-align: center;
+  margin: auto;
+}
+
+.images-wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.no-repeat-center {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 200px;
+}
+
+.first-image {
+  background-image: url(../Images/firstImage.jpg);
+}
+
+.second-image {
+  background-image: url(../Images/secondImage.jpg);
+}
+
+.third-image {
+  background-image: url(../Images/thirdImage.jpg);
+}
+
+.forth-image {
+  background-image: url(../Images/forthImage.jpg);
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 2px;
+  column-gap: 2px;
+}
+
+header ul,
+footer ul {
+  padding: 0;
+  font-size: 0;
+  display: inline-block;
+}
+
+header ul li {
+  font-size: 15px;
+  color: white;
+  display: inline-block;
+  background-color: grey;
+}
+
+/* Navbar Style */
+
+.nav-menu {
+  padding-top: 83px;
+  justify-content: center;
+}
+
+.list-menu {
+  width: 980px;
+  height: 36px;
+  justify-content: space-between;
+}
+
+footer ul li {
+  font-size: 10.5px;
+  display: inline-block;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: solid 1px #ccc;
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.list-menu li {
+  text-decoration: none;
+  flex: 1;
+  border-left: 1px solid #636058;
+  border-top: 1px solid #636058;
+  border-bottom: 1px solid #636058;
+  justify-content: center;
+  background-image: linear-gradient(#777 50%, #666 50%);
+}
+
+.list-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.list-menu li:hover {
+  background-image: linear-gradient(#666 50%, #777 50%);
+}
+
+.list-menu li:last-of-type {
+  border-right: 1px solid #636058;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.list-menu li:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.list-menu li a,
+.list-menu li span {
+  width: 100%;
+  align-self: center;
+}
+
+.search-bar {
+  padding: 0 10px;
+}
+
+.search-bar input {
+  border-radius: 10px;
+  font-size: 11px;
+  padding-left: 20px;
+  background: url(/Images/mglass.png) no-repeat;
+  background-size: 13px;
+  background-position: 5px 3px;
+  height: 21px;
+}
+
+/* Tittle images on Header */
+
+.tittle1 {
+  margin-top: 30px;
+  background: url(../Images/tittleVerse.png) no-repeat;
+  background-position: top center;
+  height: 100px;
+}
+
+.tittle2 {
+  background: url(../Images/tittle2.png) no-repeat;
+  background-position: top center;
+  height: 100px;
+}
+
+.tittle3 {
+  background: url(../Images/tittle3.png) no-repeat;
+  background-position: top center;
+  height: 30px;
+}
+
+.tittle3:hover {
+  background: url(../Images/tittle3.png) no-repeat;
+  background-position: bottom center;
+  height: 32px;
+}
+
+/* Footer Style */
+
+footer {
+  width: 940px;
+  font-size: 10px;
+  color: #6e6e6e;
+  margin: 20px auto 0;
+  line-height: 16px;
+}
+
+footer .first {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+.flag-icon {
+  height: 13px;
+}
+
+.flag-link {
+  height: 16px;
+  width: 16px;
+}
+
+.last-footer-line {
+  padding-top: 15px;
+}

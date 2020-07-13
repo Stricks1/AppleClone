@@ -15,7 +15,9 @@ CSS
 Getting Started First, visit this website https://raw.githack.com/. There, you will see an empty input where you can paste the link of our Github repositorie's html file. This is going to give you a link right below a text "Use this URL in production"; please copy that link and paste it on your browser. You will see our webpage once the browser finishes loading.
 
 # Author
-Gabriel Silveira
+
+Gabriel Malheiros Silveira
+
  - Github: [@Stricks1](https://github.com/Stricks1)
  - Linkedin: [@Gabriel Silveira](https://www.linkedin.com/in/gabriel-malheiros-silveira-b6632061/)
  - Email: [gmalheiross@gmail.com]

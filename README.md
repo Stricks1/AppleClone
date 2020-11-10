@@ -19,7 +19,7 @@ Getting Started First, visit this website https://raw.githack.com/. There, you w
 Gabriel Malheiros Silveira
 
  - Github: [@Stricks1](https://github.com/Stricks1)
- - Linkedin: [@Gabriel Silveira](https://www.linkedin.com/in/gabriel-malheiros-silveira-b6632061/)
+ - Linkedin: [@Gabriel Silveira](https://www.linkedin.com/in/gabriel-malheiros-silveira/)
  - Email: [gmalheiross@gmail.com]
 
 Show your support Give a star ⭐️ if you like this project!
